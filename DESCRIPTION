@@ -1,0 +1,22 @@
+Package: testpackage
+Title: Spookifies a Dataframe
+Version: 0.0.0.9001
+Authors@R: 
+    person(given = "Alina",
+           family = "Barylsky",
+           role = c("aut", "cre"),
+           email = "abarylsky@smith.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package adds a spooky message to your dataframe.
+License: GPL-3
+Depends: R (>= 2.10)
+Suggests: 
+    testthat (>= 2.1.0),
+    dplyr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    crayon,
+    emo
